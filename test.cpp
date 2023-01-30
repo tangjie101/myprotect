@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
     int i = 0;
-    cout<<"hello world goods"<<endl;
-    cout<<"hello world goods"<<endl;
+    int x = i++;
+    cout<< x<<endl;
+    cout<<"test protbuf "<<endl;
     return 0;
 }
